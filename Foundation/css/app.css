@@ -1,0 +1,177 @@
+body{
+  background: url(../img/cocina.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+h4{
+  text-shadow: black 1px 1px;
+}
+
+.contenido {
+  width: 900px;
+  background-color: rgba(61, 189, 74, 0.6);
+  margin: 0 auto;
+}
+
+.right{
+  border-right: solid 1px white;
+}
+
+.down{
+  border-bottom: solid 1px white;
+}
+
+.titulo{
+  font-family: cursive;
+  color: white;
+  text-shadow: black 1px 1px;
+}
+
+.slogan{
+  float: right;
+  color: orange;
+  text-shadow: black 1px 1px;
+}
+
+
+.enlace-navegacion{
+  background: rgba(255,255,255,0.7);
+  width: 100%;
+  height: 50px;
+  margin: 1px;
+  border-radius: 5px;
+  padding-left: 17px;
+  padding-top: 10px;
+}
+
+.enlace-navegacion:hover{
+  background-color: rgba(61, 189, 74, 0.6);
+  color: white;
+}
+
+.articulos{
+  color: white;
+}
+
+.imgrecetas{
+  width: 100%;
+}
+
+.ccoment{
+  margin: 10px;
+}
+
+.imgcoment{
+  height: 80px;
+  margin-left: 10px;
+}
+
+.imgcoment1{
+  height: 50px;
+}
+
+.usercoment{
+  background: rgba(255,255,255,0.5);
+}
+
+.user{
+  color: green;
+}
+
+.favoritos{
+  margin: 5px;
+  padding: 10px;
+}
+
+.navegador{
+  padding-left: 20px;
+}
+
+.input-element {
+  width: 80%;
+  height: 80px;
+  padding: 10px;
+  color: black;
+  margin-left: 5px;
+  background-color: rgba(255,255,255,0.8);
+  border-radius: 4px;
+  border: none;
+  float: right;
+}
+
+.cbuscar{
+  padding: 10px;
+  min-height: 50px;
+}
+
+.input-buscar {
+  width: 100%;
+  height: 30px;
+  padding: 5px;
+  color: black;
+  background-color: rgba(255,255,255,0.8 );
+  border-radius: 4px;
+  border: none;
+}
+
+ul{
+  list-style: none;
+}
+
+li{
+  background: rgba(255,255,255,0.7);
+  width: 100%;
+  height: 50px;
+  margin: 1px;
+  border-radius: 5px;
+  padding-left: 17px;
+  padding-top: 10px;
+}
+
+li:hover{
+  background-color: rgba(61, 189, 74, 0.6);
+  color: white;
+}
+@media (max-width: 770px) {
+  h2 {
+    font-size: 25px !important;
+  }
+
+
+  .contenido {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .enlace-navegacion{
+    font-size: 20px;
+    margin: 1 auto;
+    text-align: center center;
+    padding-top: 10px;
+  }
+
+  .redes{
+    padding: 0;
+    padding-top: 50px;
+  }
+
+  .iconoredes{
+    width: 25px;
+  }
+
+  .imgcoment{
+    height: 50px;
+  }
+
+  .input-element {
+    width: 70%;
+    height: 50px;
+  }
+
+}

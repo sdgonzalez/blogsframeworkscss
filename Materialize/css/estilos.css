@@ -1,0 +1,121 @@
+body{
+  background: url(../img/paisaje.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+h2{
+  font-family: cursive;
+  font-style: italic;
+  text-shadow: 1px 1px white;
+}
+
+.encabezado{
+  background-color: rgba(0, 0, 255, 0.5);
+}
+
+.contenido{
+  background-color: rgba(128, 128, 128, 0.5);
+}
+
+.logo{
+  height: 200px;
+}
+
+.imgarticle{
+  width: 30%;
+  margin: 20px;
+  float: left;
+
+}
+
+.imgautor{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.autor{
+  margin-left: 20px;
+}
+
+
+.enlaces{
+  float: right;
+  padding-top: 40px;
+  padding-right: 40px;
+}
+
+.botonenlace{
+  background-color: blue;
+  border-radius: 5px;
+}
+
+.slogan{
+  float: left;
+}
+
+.articulo{
+  background-color: gray;
+  text-align: justify;
+  padding: 10px;
+}
+
+.articulo1{
+  background-color: gray;
+  text-align: center;
+  padding: 10px;
+}
+
+.downline{
+  border-bottom: solid white 1px;
+}
+
+.iconoredes{
+  width: 50px;
+}
+
+.imgviajes{
+  width: 100%;
+}
+
+.articletext{
+  font-size: 15px;
+}
+
+.formcomentarios{
+  background-color: rgba(0, 0, 255, 0.5);
+  padding: 20px;
+}
+
+
+@media (max-width: 780px) {
+
+  h2{
+    font-size:25px;
+    text-align: center;
+
+  }
+
+  .enlaces{
+    padding-top: 10px;
+    padding-right: 10px;
+  }
+
+  .imgarticle{
+    float: none;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .articulo1{
+    margin-top: 10px;
+  }
+
+  .logo{
+    height: 80px;
+  }
+}
